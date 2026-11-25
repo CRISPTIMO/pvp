@@ -1,0 +1,14 @@
+{
+  "key.categories.pvphelper": "PvP Helper",
+  "key.pvphelper.toggle_auto_totem": "Toggle Auto Totem",
+  "key.pvphelper.toggle_auto_tool": "Toggle Auto Tool",
+  "key.pvphelper.toggle_aim_assist": "Toggle Aim Assist",
+  "key.pvphelper.aim_hold": "Hold Aim (throwables)",
+  "key.pvphelper.toggle_auto_fish": "Toggle Auto Fish",
+  "key.pvphelper.toggle_auto_farm": "Toggle Auto Farm",
+  "key.pvphelper.toggle_melee_aim": "Toggle Melee Aim",
+  "key.pvphelper.cycle_combat_mode": "Combat Mode (off/crit/packet/full)",
+  "key.pvphelper.toggle_auto_eat": "Toggle Auto Eat",
+  "key.pvphelper.toggle_auto_refill": "Toggle Auto Refill",
+  "key.pvphelper.pearl_throw": "Throw Ender Pearl"
+}

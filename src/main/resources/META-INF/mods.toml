@@ -1,0 +1,27 @@
+# ШТРАФОСТАН TOOLS — клиентский мод-помощник для Minecraft 1.21.11 (Forge)
+modLoader="javafml"
+loaderVersion="[61,)"
+license="All Rights Reserved"
+clientSideOnly=true
+
+[[mods]]
+modId="pvphelper"
+version="1.0.0"
+displayName="ШТРАФОСТАН TOOLS"
+authors="iva210182"
+displayTest="IGNORE_ALL_VERSION"
+description='''ШТРАФОСТАН TOOLS — клиентский помощник для PvP: авто-тотем, авто-инструмент, помощь прицела, боевой ассист, авто-вода, ТНТ-комбо, координаты своих и многое другое.'''
+
+[[dependencies.pvphelper]]
+    modId="forge"
+    mandatory=true
+    versionRange="[61,)"
+    ordering="NONE"
+    side="CLIENT"
+
+[[dependencies.pvphelper]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.21.11,1.22)"
+    ordering="NONE"
+    side="CLIENT"

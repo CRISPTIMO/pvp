@@ -1,0 +1,14 @@
+{
+  "key.categories.pvphelper": "PvP Helper",
+  "key.pvphelper.toggle_auto_totem": "Вкл/выкл авто-тотем",
+  "key.pvphelper.toggle_auto_tool": "Вкл/выкл авто-инструмент",
+  "key.pvphelper.toggle_aim_assist": "Вкл/выкл помощь прицела",
+  "key.pvphelper.aim_hold": "Удержание наводки (метательные)",
+  "key.pvphelper.toggle_auto_fish": "Вкл/выкл авто-рыбалку",
+  "key.pvphelper.toggle_auto_farm": "Вкл/выкл авто-ферму",
+  "key.pvphelper.toggle_melee_aim": "Вкл/выкл наводку ближнего боя",
+  "key.pvphelper.cycle_combat_mode": "Боевой режим (выкл/крит/пакеты/заряд)",
+  "key.pvphelper.toggle_auto_eat": "Вкл/выкл авто-еду",
+  "key.pvphelper.toggle_auto_refill": "Вкл/выкл авто-рефилл",
+  "key.pvphelper.pearl_throw": "Бросок жемчуга Края"
+}

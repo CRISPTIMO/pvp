@@ -1,0 +1,32 @@
+# systemd-юнит для авто-запуска релея после ребута VDS.
+# Установка (от root):
+#   1) скопируй папку relay в /opt/shtrafostan-relay
+#   2) отредактируй Environment ниже (TOKEN и порт)
+#   3) sudo cp /opt/shtrafostan-relay/shtrafostan-relay.service /etc/systemd/system/
+#   4) sudo systemctl daemon-reload
+#   5) sudo systemctl enable --now shtrafostan-relay
+# Логи:   journalctl -u shtrafostan-relay -f
+# Статус: systemctl status shtrafostan-relay
+
+[Unit]
+Description=SHTRAFOSTAN TOOLS coordinate relay
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/shtrafostan-relay
+ExecStart=/usr/bin/python3 /opt/shtrafostan-relay/relay.py
+Restart=always
+RestartSec=3
+
+# Токен уже вшит (общий для команды). Меняй только при утечке.
+Environment=RELAY_PORT=8080
+Environment=RELAY_TOKEN=SHTRAFOSTAN-7fK92mLpQ4xZ
+Environment=RELAY_TTL=15
+
+# Немного изоляции (безопасность).
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
